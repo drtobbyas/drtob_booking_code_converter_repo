@@ -1,0 +1,139 @@
+body {
+  font-size: 16px;
+ margin:0px;
+  font-family: Georgia,time,serif;
+
+}
+#container {
+  margin: 1px;
+  padding: 5px;
+  display: block;
+  position: relative;
+  height: 350px;
+  background-color: #F0F2F0;
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 350px;
+  max-height: 350px;
+  visibility: visible;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url('bg.jpg');
+  border: 5px solid #FF3223;
+  border-radius: 10px;
+}
+#heading {
+  display: block;
+  width: auto;
+  position: relative;
+  height: 25%;
+  padding: 40px 5px 10px 5px ;
+  font-weight: bolder;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fe3232;
+  
+}
+#info {
+  width: auto;
+  font-weight: bold;
+  font-size: 12px;
+  color: #7e4e4edc;
+  line-height: 15px;
+  padding: 5px 5px 5px 5px;
+  background-color: #7adbbb70;
+  text-transform: initial; 
+  text-align: center;
+  border-radius: 5px;
+
+}
+#form {
+	
+  clear: both;
+  width: auto;
+  height: 75%;
+  display: block;
+}
+#bookingCodeForm
+{
+	margin-top: 10px;
+	
+}
+select 
+{
+	margin: 10px 2px 10px 2px;
+	border: 10px solid #00A700;
+	background-color: #00A700;
+	border-radius: 5px;
+	color: #3c6813e3;
+	font-weight:bold;
+	
+}
+select:hover
+{
+	border: 10px solid #008100;
+	background-color: #008100;
+	
+}
+
+input
+{
+	
+	margin: 10px 2px 10px 2px;
+	
+	box-shadow: 2px 2px 5px #FF3223;
+		border-radius: 10px;
+		
+		font-weight: bold;
+		color: #121212;
+		
+}
+
+.inputField
+{
+	height: 30px;
+	width: 100px;
+}
+.inputField:focus
+{
+	background-color: #F0F090;
+	
+}
+.submitButton
+{
+	background-color: #FF3223;
+	font-size: 20px;
+	height: 30px;
+	width: 100px;
+		
+}
+.submitButton:hover
+{
+	background-color: #00A700;
+	
+	
+}
+.resetButton
+{
+	background-color: #FFC864;
+	font-size: 20px;
+	height: 30px;
+	width: 70px;
+	
+	
+}
+.resetButton:hover
+{
+	
+	background-color: #FF3223;
+	
+}
+
+

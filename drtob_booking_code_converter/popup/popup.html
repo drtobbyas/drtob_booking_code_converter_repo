@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta content="text/html"; charset="UTF-8" > 
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div id="container">
+<div id="heading">Exqup BetCode Converter
+  
+</div>
+<div id="info">Please fill the form to convert Booking Code</div>
+<div id="form">
+<form method="post" action="#" id="bookingCodeForm">
+<table>
+<tr>
+<td>
+<select name="srcBookMaker" size="1" required="required">
+<option value="bet9ja">bet9ja</option>
+<option value="merrybet">merrybet</option>
+<option value="1960bet">1960bet</option>
+</select>
+</td>
+<td>
+<input type="text" name="srcBooking" required="required" class="inputField" placeholder="Booking Code">
+</td>
+</tr>
+ 
+<tr>
+<td>
+<select name="dstBookMaker" size="1" required="required">
+<option value="accessbet">accessbet</option>
+<option value="1960bet">1960bet</option>
+<option value="merrybet">merrybet</option>
+</select>
+</td>
+<td>
+<input type="text" name="dstBooking" class="inputField" disabled="disabled">
+</td>
+</tr>
+<tr>
+<td>
+<input type="submit" value="Convert" class="submitButton">
+</td>
+<td>
+<input type="reset" value="Clear" class="resetButton">
+</td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

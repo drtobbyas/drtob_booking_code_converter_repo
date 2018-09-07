@@ -1,0 +1,88 @@
+#formDiv {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: inherit;
+}
+
+#inputForm {
+    color: black;
+}
+
+#rowInput {
+    position: relative;
+    display: inline;
+}
+
+#won {
+    position: relative;
+    display: inline;
+}
+
+#editBtn {
+    position: relative;
+    cursor: pointer;
+    display: inline;
+}
+
+#bgFrameDiv {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 400px;
+    visibility: hidden;
+}
+
+#bgFrameDiv iframe {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+}
+
+.bundle {
+    position: relative;
+    display: inline;
+}
+
+.notifyDiv {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px dotted black;
+    margin-left: 40px;
+    font-size: 40px;
+    min-width: 100px;
+    min-height: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.notifyDiv .notifySpan {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    background-color: #4ef84a99;
+    color: #34f;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the notify.notifyDiv */
+    position: absolute;
+    top: -110%;
+    left: -100%;
+    z-index: 1;
+}
+
+.notifyDiv:hover .notifySpan {
+    visibility: visible;
+}
+
+.notifyDiv .notifySpan p {
+    width: inherit;
+    height: inherit;
+    margin: 0px;
+}

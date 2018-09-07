@@ -1,0 +1,26 @@
+CREATE APP/EXTENSION TO CONVERT BETCODE FROM ONE BETTING PLATFORM TO ANOTHER...
+
+
+Create extension dialog to open where bet/booking code of src and dst platform will be entered
+☐ save data collected and open src website where srcBooking is searched to bring out the games
+☐ if srcBooking not found/expired(all games finished), notify the user with appropriate error and restore app to default
+☐ else if found, notify the user and start extracting "GAME-DATA"(TEAM NAMES,MATCH CODES,BET-TYPE, BET SELECTION, TOURNAMENT PLAYED E.T.C)
+☐ save "GAME-DATA" to file 
+
+☐ search database for src BET-TYPE, BET-SELECTION, *TEAM NAME(*TAKE NOTE* some team name have varying notation across different platform e.g Paris Saint Germain may be P.S.G in some platforms. ) for equivalent dst alternative
+ ☐ if TEAM-NAME is found in database, it is an exception, the equivalent dst alternate should be used
+ Open dst website 
+ ☐ search for each TEAM-NAME iterating one after the other
+  ☐ if TEAM-NAME or rather, equivalent dst alternative is found 
+  ☐ select BET-TYPE and then BET-SELECTION
+  go to next item(team)
+After all selection is made, generate booking code 
+Notify user/display dst booking code and GAME-DATA(TEAM-NAMES MATCH-CODES, BET-TYPE, BET-SELECTION) to user.
+
+
+
+☐ //change color of #info per error...
+☐  // replace content of popop.html with processing message to notify the user and also prevent multiple consecutive input. Or rather close popup.html
+
+
+You can load the page in i-frame of background html to hide from user
